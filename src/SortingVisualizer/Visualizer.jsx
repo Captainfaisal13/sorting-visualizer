@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import colors from "./colorCodes";
-import GithubIcon from "../Icons/GithubIcon";
 import { mergeSortAnimation } from "../algorithms/mergesort";
 import { insertionSort } from "../algorithms/insertion";
 import { selectionSort } from "../algorithms/selectionsort";
@@ -222,8 +221,6 @@ const Visualizer = () => {
             max="499"
           />
         </div>
-
-        <GithubIcon className={"github-icon"} />
       </div>
     </div>
   );
